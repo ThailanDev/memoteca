@@ -5,10 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component';
 import { RodapeComponent } from './componentes/rodape/rodape.component';
-import { PensamentosComponent } from './componentes/pensamentos/pensamentos.component';
-import { CriarPensamentoComponent } from './componentes/pensamentos/criar-pensamento/criar-pensamento.component';
+import { CriarPensamentosComponent } from './componentes/pensamentos/criar-pensamento/criar-pensamento.component';
 import { FormsModule } from '@angular/forms';
-import { ListarPensamentoComponent } from './componentes/pensamentos/listar-pensamento/listar-pensamento.component';
+import { ListarPensamentosComponent } from './componentes/pensamentos/listar-pensamentos/listar-pensamentos.component';
 import { PensamentoComponent } from './componentes/pensamentos/pensamento/pensamento.component';
 
 @NgModule({
@@ -16,9 +15,8 @@ import { PensamentoComponent } from './componentes/pensamentos/pensamento/pensam
     AppComponent,
     CabecalhoComponent,
     RodapeComponent,
-    PensamentosComponent,
-    CriarPensamentoComponent,
-    ListarPensamentoComponent,
+    CriarPensamentosComponent,
+    ListarPensamentosComponent,
     PensamentoComponent
   ],
   imports: [

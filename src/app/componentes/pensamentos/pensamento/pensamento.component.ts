@@ -10,13 +10,19 @@ export class PensamentoComponent implements OnInit {
   @Input() pensamento = {
     conteudo: '',
     autoria: '',
-    modelo: ''
+    modelo: '',
   }
 
   constructor() { }
 
   ngOnInit(): void {
+  }
 
+  larguraPensamento(): string {
+    if (this.pensamento.conteudo.length >= 256) {
+      return 'pensamento-g'
+    }
+    return 'pensamento-p'
   }
 
 }
