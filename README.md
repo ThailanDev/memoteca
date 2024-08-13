@@ -9,6 +9,8 @@ A ideia central da aplicação é "Permitir que usuários compartilhem seus pens
 
 ![image](https://github.com/user-attachments/assets/5bcef437-7264-4b9c-9db6-ddc25aafcabd)
 
+![Uploading image.png…]()
+
 
 
 
