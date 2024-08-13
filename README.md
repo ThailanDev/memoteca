@@ -5,6 +5,10 @@ A ideia central da aplicação é "Permitir que usuários compartilhem seus pens
 
 ![image](https://github.com/user-attachments/assets/7cc98f07-6ed8-4199-a3ac-a737921ce19e)
 
-![image](https://github.com/user-attachments/assets/c0431e6a-7eaa-408b-9954-c19177ebc9a1)
+![image](https://github.com/user-attachments/assets/0b5c080e-5a84-482a-833a-3ecf465055a7)
 
-![image](https://github.com/user-attachments/assets/3d909b38-3c5a-4254-81e5-8923d1ba06ac)
+![image](https://github.com/user-attachments/assets/5bcef437-7264-4b9c-9db6-ddc25aafcabd)
+
+
+
+
