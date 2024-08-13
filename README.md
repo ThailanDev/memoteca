@@ -1,0 +1,3 @@
+# Desenvolvimento e aprimoramento
+Este projeto tem como principal proposta entender o funcionamento do framework angular, para isso, criei uma aplicacao simples que contempla o CRUD [create, read, update e dalete].
+Antes de tudo defini uma proposta ficticia entao a ideia dessa aplicacao e "Permitir que usuario compartilhe seus pensametos". Usuario tera acesso a um formulario com dois campos onde ele pode compartilhar pensamento e o nome do autor reponsavel, apos criar o pensamento ele sera levado para tela onde ira listar todos os registros, nessa usuario tera acesso a um buscador que facilara encontrar pensamentos especificos e um botao ao qual levara para uma tela com os pensamentos favoritados
