@@ -1,0 +1,36 @@
+<section class="container">
+
+  <header class="header d-flex">
+
+    <div class="buscar-pensamentos">
+      <input type="search" class="filtro" placeholder="O que voce procura" autofocus [(ngModel)]="filtro"
+        (keyup)="pensaquisarPensamentos()">
+      <img src="/assets/imagens/lupa.png" alt="Lupa azul">
+    </div>
+
+    <h2 class="ff-inter">Filtro: {{filtro}}</h2>
+
+    <div class="botoes">
+      <button class="botao">Meu Mural</button>
+      <button class="botao" (click)="listarPensamentosFavoritados()">Meus Favoritos</button>
+      <button routerLink="/criarPensamento" class="botao">Novo pensamento</button>
+    </div>
+
+  </header>
+
+  <div class="mural" *ngIf="listaPensamentos.length > 0, else semPensamentos">
+    <div *ngFor="let pensamento of listaPensamentos">
+      <app-pensamento [pensamento]="pensamento"></app-pensamento>
+    </div>
+  </div>
+
+</section>
+
+<app-carregar-mais [haMaisPensamento]="haMaisPensamentos" (click)="carregarMaisPensamentos()"></app-carregar-mais>
+
+<ng-template #semPensamentos>
+  <div class="ff-inter sem-pensamentos">
+    <p>Ainda não há pensamentos cadastrados!</p>
+  </div>
+
+</ng-template>
